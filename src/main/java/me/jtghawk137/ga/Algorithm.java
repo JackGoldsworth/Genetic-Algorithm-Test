@@ -20,11 +20,11 @@ public class Algorithm
 
     public Algorithm()
     {
-        this.mutationRate = 0.015;
-        this.changeRate = 0.5;
-        this.tournamentSize = 5;
-        this.chooseFittest = false;
-        this.keepFittest = true;
+        mutationRate = 0.015;
+        changeRate = 0.5;
+        tournamentSize = 5;
+        chooseFittest = false;
+        keepFittest = true;
     }
 
     /**
