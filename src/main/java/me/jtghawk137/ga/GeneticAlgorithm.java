@@ -9,8 +9,8 @@ public class GeneticAlgorithm
 
     public static void main(String[] args)
     {
-        Fitness.setSolution("1111000000000000000000000000000000000000000000000000000000001111");
-        Population population = new Population(50, true);
+        Fitness.setSolution("111100000000000000000000000000000000000000000000000000000000000000000001111");
+        Population population = new Population(50, false);
         Algorithm algorithm = new Algorithm();
         int generation = 0;
         while (population.getFittest().getFitness() < Fitness.getMaxFitness())
